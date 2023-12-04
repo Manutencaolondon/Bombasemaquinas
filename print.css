@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 5px;
+
+}
+img{
+    width: 18%;
+}
+p{
+    
+    font-size: larger;
+}
+.btn{
+    display: none;
+    
+}
+h1{
+    font-size: medium;
+    text-align: Center ;
+}
+img{
+    position: relative ;
+}
+.assinatura{
+   display:flex;
+   
+
+    
+}
+h2{
+    font-size:9px;
+}
+
+
+       .alinbt{
+              display:flex;
+    
+          }
+          
+          
+          
+          .assinatura{
+              display:flex;
+              
+              
+          }
+          #signatureCanvas1{
+              
+              width: 200px;
+          }
+            #signatureCanvas2{
+              
+              width: 200px;
+          }
+.tec2{ text-align: right ;
+   
+    
+}
+.titassin{
+    display:flex;
+}
+h2{
+    
+}
+button{
+    display:none;
+}
+canvas{
+    border:none;
+}
+#fileInput{
+    display:none;
+}
+input{
+    border:none;
+}
+

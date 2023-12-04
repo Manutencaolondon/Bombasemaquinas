@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css" media="print">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.5.3/signature_pad.min.js"></script>
+    <title>Ordem de Serviço</title>
+</head>
+<body>
+    <div class="caixa">
+    <div class="cabeca">
+    <img src="ft\logo.png" alt="london"><br>
+    
+    </div>
+    <h1>Controle de Bombas e Maquinários </h1>
+    <p>Nome <br>
+        <input type="text" required  Uppercase></p>
+   <p>Bloco <select name="bloco" id="bloco">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    
+    </select>
+   
+    </p>
+    
+    <p>Tipo de Bomba <br>
+     <select name="tipo" id="tipo">
+        <option value=""></option>
+        <option value="exaustor">Exaustor</option>
+        <option value="pressurizaçao">Pressurização</option>
+        <option value="pluvial">Pluvial</option>
+        <option value="piscina">Piscina</option>
+        <option value="lago">Lago</option>
+        <option value="recalque">Recalque</option>
+    
+    </select>
+    </p>
+    <p>Tipo de Manutenção <br>
+        <select name="tipoManutencao" id="tipoManutencao">
+           <option value=""></option>
+           <option value="corretiva">Corretiva</option>
+           <option value="preventiva">Preventiva</option>
+                  
+       </select>
+       </p>
+    <p>
+        DATA RETIRADA DA BOMBA<input type="date" name="entrada" id="entrada">
+    </p>
+        <p>
+        DATA DEVOLUÇÃO  <input type="date" name="saida" id="saida">
+         
+    </p>
+    <p>
+        Nome Funcionário da MGTEC  <br><input type="text" minlength="3" required>
+    </p>
+    <div class="titassin">
+        
+    
+       
+    </div> 
+         <div class="alinbt">
+        <h2>Téc.Condomínio</h2>     
+    <canvas id="signatureCanvas1"width="400"height="200"ontouchstart="touchStart(event)" ontouchmove="touchMove(event)"></canvas><br>
+    <button onclick="clearSignature(1)">Limpar Assinatura 1</button>
+    
+
+      <h2 class="tec2">Téc. MGTEC</h2>   
+    <canvas id="signatureCanvas2" width="400"height ="200"ontouchstart="touchStart(event)" ontouchmove="touchMove(event)"></canvas><br>
+    <button onclick="clearSignature(2)">Limpar Assinatura 2</button></div>
+     </div>
+     <p>Fotos</p>
+      
+<div class="entradaft">
+            <picture>
+                <input type="file" id="fileInput" accept="image/*" multiple>
+                <br>
+                <div id="gallery"></div>
+            </picture>
+        </div>
+      
+    </div>
+        
+    </div>
+    
+     </p>
+    
+    </picture>
+
+    </div>
+   <button class="btn" onclick="window.print()">Enviar</button>
+    </div>
+</body>
+
+<script src="java.js"></script>
+
+
+</html>
+
+  
+</body>
+</html>
