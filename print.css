@@ -5,6 +5,10 @@ body{
     height: 29.7cm;
 
 }
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+}
 img{
     width: 18%;
 }
