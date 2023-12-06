@@ -27,7 +27,6 @@ border-bottom: solid 1px black ;
 
 }
 p{
-    height: 20%;
     border-bottom: solid 1px saddlebrown;
     border-width: 80%;
     font-size:x-large;
@@ -89,3 +88,51 @@ select{
               
              
           }
+          #relogio{
+          display:none;
+          justify-content: flex-end ;
+          width: 100%;
+          border:solid 1px black ;
+          
+              
+              
+              
+           
+              
+              
+             
+          }
+          #obs{
+              border:none;
+              margin-bottom:0;
+              padding-bottom:0;
+          }
+          textarea{
+              border:none;
+          }
+          #Hora{
+              font-size: small;
+              margin: 0;
+              padding: 0;
+              display:inline-block;
+          }
+
+#Minutos{
+              font-size:small;
+              margin: 0;
+              padding: 0;
+            display:inline-block;  
+          }
+          #Segundos{
+              font-size:small;
+              margin: 0;
+              padding: 0;
+              display:inline-block;
+          }
+#Dt{
+              font-size:small;
+              margin: 0;
+              padding: 0;
+              display:inline-block;
+          }
+
