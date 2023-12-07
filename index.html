@@ -7,16 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="print.css" media="print">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.5.3/signature_pad.min.js"></script>
-    
     <title>Ordem de Serviço</title>
 </head>
 <body>
-    <form>
     <div class="caixa">
-    <div class="cabeca"></div>
-    <img src="logo.png" alt="london">
-  
-    <br>
+    <div class="cabeca">
+    <img src="ft\logo.png" alt="london"><br>
     
     </div>
     <h1>Controle de Bombas e Maquinários </h1>
@@ -65,7 +61,6 @@
     <p>
         Nome Funcionário da MGTEC  <br><input type="text" minlength="3" required>
     </p>
-    
     <div class="titassin">
         
     
@@ -81,43 +76,25 @@
     <canvas id="signatureCanvas2" width="400"height ="200"ontouchstart="touchStart(event)" ontouchmove="touchMove(event)"></canvas><br>
     <button onclick="clearSignature(2)">Limpar Assinatura 2</button></div>
      </div>
-     
-  <p>    
+     <p>Fotos</p>
+      
 <div class="entradaft">
-            <figure>
-                Fotos
+            <picture>
                 <input type="file" id="fileInput" accept="image/*" multiple>
                 <br>
-                <figcaption id="gallery"></figcaption>
-            </figure>
+                <div id="gallery"></div>
+            </picture>
         </div>
-        </p>
-    
-    </picture>
+      
+    </div>
+        
+    </div>
 
     </div>
-    <p id="obs">
-       <u> Observação:</u><br>
-    
-    <textarea rows="5" cols="48" maxlength="500"></textarea></p>
-      <div class="relogio" id="relogio">
-    <div id="Hora"></div> 
-    <div id="Minutos"></div>
-    <div id="Segundos"></div>
-    <div id="Dt"></div>
-     </div>
-   <button class="btn"onclick="window.print()">Enviar</button>
-   
+   <button class="btn" onclick="window.print()">Enviar</button>
+    </div>
 </body>
 
 <script src="java.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js" integrity="sha512-w3u9q/DeneCSwUDjhiMNibTRh/1i/gScBVp2imNVAMCt6cUHIw6xzhzcPFIaL3Q1EbI2l+nu17q2aLJJLo4ZYg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-
-
-  
-</body>
-</form>
-    
 </html>
+                                                  
