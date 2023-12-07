@@ -1,16 +1,7 @@
 body{
     margin: 0;
     padding: 5px;
-    width: 21cm;
-    height: 29.7cm;
 
-}
-pages{
-    
-}
-page[size="A4"] {
-  width: 21cm;
-  height: 29.7cm;
 }
 img{
     width: 18%;
@@ -82,8 +73,5 @@ canvas{
 }
 input{
     border:none;
-}
-#relogio{
-    display:block;
 }
 
